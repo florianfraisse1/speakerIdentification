@@ -1,0 +1,14 @@
+{
+  "sampleRate": 16000,
+  "preemphasisAlpha": 0.97,
+  "frameLength": 0.025,
+  "frameStep": 0.01,
+  "numFFT": 512,
+  "bucketStep": 1,
+  "maxSeconds": 10,
+  "enrollmentFile": "resources/enroll_embeddings.pkl",
+  "model": {
+    "weights": "resources/speaker_identification.h5",
+    "costMetric": "cosine"
+  }
+}
