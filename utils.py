@@ -25,6 +25,7 @@ def read_config(config_file):
     print("configuration set to " + str(config))
     return config
 
+
 def build_buckets(max_sec, step_sec, frame_step):
     buckets = {}
     frames_per_sec = int(1 / frame_step)
