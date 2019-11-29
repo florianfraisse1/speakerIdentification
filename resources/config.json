@@ -1,4 +1,5 @@
 {
+  "signatureThreshold": 0.3,
   "sampleRate": 16000,
   "preemphasisAlpha": 0.97,
   "frameLength": 0.025,
